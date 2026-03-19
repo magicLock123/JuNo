@@ -1,0 +1,29 @@
+
+:root {
+  --brand-main: #4b4b4b;   
+  --brand-light: #696969;
+  --brand-min:#696969;     
+  
+  --el-color-primary: var(--brand-main) !important;
+  --el-color-primary-light-3: #757575 !important;
+  --el-color-primary-light-9: var(--brand-light) !important;
+  --el-bg-color-page: #f5f7fa !important;
+}
+
+.el-button--primary {
+  background-color: var(--brand-main) !important;
+  border-color: var(--brand-main) !important;
+  color: #ffffff !important;
+}
+
+.el-button--primary:hover {
+  background-color: #303133 !important; 
+  border-color: #303133 !important;
+}
+
+.bg-brand-light {
+  background-color: var(--brand-light) !important;
+}
+.text-brand {
+  color: var(--brand-main) !important;
+}
